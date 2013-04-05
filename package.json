@@ -1,0 +1,22 @@
+{
+  "name": "node-debug",
+  "version": "0.0.0",
+  "description": "Quick and easy wrapper for node-inspector",
+  "bin": {
+    "node-debug": "bin/node-debug.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "http://github.com/jfirebaugh/node-debug",
+  "dependencies": {
+    "node-inspector": "0",
+    "open": "0"
+  },
+  "author": {
+    "name": "John Firebaugh",
+    "email": "john.firebaugh@gmail.com",
+    "url": "http://jfire.io"
+  },
+  "license": "BSD"
+}
