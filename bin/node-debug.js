@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var DebugServer = require('node-inspector/lib/debug-server');
+var DebugServer = require('node-inspector/lib/debug-server').DebugServer;
 var spawn = require('child_process').spawn;
 var open = require('open');
 
