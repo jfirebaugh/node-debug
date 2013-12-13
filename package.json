@@ -1,6 +1,6 @@
 {
   "name": "node-debug",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Quick and easy wrapper for node-inspector",
   "bin": {
     "node-debug": "bin/node-debug.js"
@@ -10,8 +10,8 @@
   },
   "repository": "http://github.com/jfirebaugh/node-debug",
   "dependencies": {
-    "node-inspector": "0",
-    "open": "0"
+    "node-inspector": "~0.6.2",
+    "open": "~0.0.4"
   },
   "author": {
     "name": "John Firebaugh",
