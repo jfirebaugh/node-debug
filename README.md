@@ -1,10 +1,7 @@
-Debug with [node-inspector](https://github.com/dannycoates/node-inspector) really
-easily.
-
-## Usage
+This project is **obsolete**: node-inspector 0.7 has a built in `node-debug` command:
 
 ```
-$ npm install -g node-debug
+$ npm install -g node-inspector
 $ node-debug path/to/your/script.js
 ```
 
